@@ -1,0 +1,734 @@
+.lay-step {
+    /*font-size: 0;*/
+    /*width: 400px;*/
+    margin: 0 auto;
+    /*max-width: 100%;*/
+    padding-left: 200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.step-item {
+    display: inline-block;
+    line-height: 26px;
+    position: relative;
+    font-size: 14px;
+}
+
+/*.layui-nav * {*/
+/*    font-size: 1px!important;*/
+/*}*/
+
+/*.step-item-title {*/
+/*    color: #999999;*/
+/*}*/
+
+.step-item-done .step-item-title {
+    color: #000000;
+}
+
+.step-item-tail {
+    width: 100%;
+    padding: 0 10px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.step-item-tail i {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    vertical-align: top;
+    background: #c2c2c2;
+    position: relative;
+}
+
+.step-item-tail .step-item-tail-done {
+    background: #1D84FF;
+}
+
+.step-item-head {
+    /*边框背景  颜色 和字体颜色,大小等*/
+    position: relative;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    vertical-align: top;
+    color: #999999;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.step-item-head.step-item-head-active,
+.step-item-head.step-item-head-done {
+    /*修改背景颜色*/
+    background: #1D84FF;
+    color: #ffffff;
+}
+
+.step-item-main {
+    display: block;
+    position: relative;
+    margin-left: -50%;
+    margin-right: 50%;
+    padding-left: 26px;
+    text-align: center;
+}
+
+.step-item-main-title {
+    font-weight: bolder;
+    color: #555555;
+}
+
+.step-item-main-desc {
+    color: #aaaaaa;
+}
+
+/*.lay-step + [carousel-item]:before {*/
+/*    display: none;*/
+/*}*/
+
+/*.lay-step + [carousel-item] > * {*/
+/*    background-color: transparent;*/
+/*}*/
+
+.layui-btn {
+    height: 39px;
+    width: 20%;
+    background-color: #155ede;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 18px
+}
+.perusal{
+    height: 39px;
+    width: 20%;
+    background-color: #155ede;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 18px
+}
+
+.layui-btn layui-btn-primary pre {
+    height: 40px;
+    width: 26%;
+
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.m-20 {
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px*/
+    font-size: 16px;font-weight: bold;
+}
+.m-20-p{
+    margin-top: 0.5%
+}
+.m-10 {
+    /*margin-top: 10px;*/
+    margin-bottom: 10px
+}
+.hidder{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.m-top1 {
+    /*margin-left: 40px;*/
+    /*margin-top: 36px;*/
+    margin-left: 3.4%; padding-top: 1.6%;
+}
+.m-top3 {
+    /*margin-left: 40px;*/
+    /*margin-top: 36px;*/
+    /*margin-left: 3.4%; */
+    margin-top: 3%;
+}
+.rotate-icon {
+    display: inline-block;
+    margin-left: -8px; /* Adjust the left margin to move the icon towards the left */
+    margin-top: -4px; /* Adjust the top margin to move the icon towards the top */
+    width: 16%;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: spin 1s infinite linear;
+}
+
+.div-p20 {
+    padding-top: 20px
+}
+
+.span-16 {
+    color: #515a6e;
+    font-size: 16px;
+    font-weight: bold;
+}
+.span-14 {
+    color: #515a6e;
+    font-size: 14px;
+    font-weight: bold;
+}
+.span-14-mt5{
+    color: #515a6e;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.span-12 {
+    color: #515a6e;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 1;
+    /*font-weight: bold;*/
+}
+.span-16 span {
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.span-16 span:first-child {
+    margin-right: 5px;
+    font-size: 24px;
+}
+.input-5[placeholder=""] {
+    height: 16px;
+}
+.input-5 {
+    background-color: #e2e3e6;
+    padding-left: 10px;
+    /*margin-top: 5px;*/
+    /*width: 467px;*/
+    margin-top: 1%;
+
+    width: 97%;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+
+    /*margin-left: 20px;*/
+}
+.input-5-noBack {
+
+    border: 1px solid #e2e3e6;
+    /*background-color: #e2e3e6;*/
+    padding-left: 10px;
+    margin-top: 1%;
+    /*width: 467px;*/
+    width: 97%;
+    height: 36px;
+    /*border: none;*/
+    border-radius: 5px;
+
+    /*margin-left: 20px;*/
+}
+.input-5-noWidth {
+    border: 1px solid #e2e3e6;
+    padding-left: 10px;
+    margin-top: 9%;
+    height: 29px;
+    border-radius: 5px;
+}
+/*选择地区*/
+
+#expressDeliveryAreaInput.input-5-noWidth {
+    /* 在这里添加您想要修改的样式 */
+    /* 例如： */
+    width: 100% !important;
+    margin-left: 10px !important;
+}
+.input-width-noBack {
+
+    border: 1px solid #e2e3e6;
+    /*background-color: #e2e3e6;*/
+    padding-left: 10px;
+    margin-top: 1%;
+    /*width: 467px;*/
+    width: 100%;
+    height: 34px;
+    /*border: none;*/
+    border-radius: 5px;
+
+    /*margin-left: 20px;*/
+}
+
+.input-div {
+    width: 40%;
+    height: 71px;
+    /*background-color: yellow;*/
+    float: left
+}
+.input-div-current {
+    width: 40%;
+    height: 89px;
+    /*background-color: blue;*/
+
+    /*background-color: yellow;*/
+    float: left
+}
+.input-div-current-width100 {
+    width: 84%;
+    height: 89px;
+    /*background-color: blue;*/
+
+    /*background-color: yellow;*/
+    float: left
+}
+
+
+
+#interest:hover{
+    /*border: 1px solid #155ede;*/
+}
+
+.input-div-margin{
+    margin-left: 42.6%;
+    width: 40%;
+    height: 71px;
+    /*background-color: blue;*/
+
+}
+.input-div-current-margin {
+    margin-left: 42.6%;
+    width: 40%;
+    height: 89px;
+    /*background-color: blue;*/
+
+}
+/*.select-5{*/
+/*    padding-left: 10px;*/
+/*    margin-top: 5px;*/
+/*    width: 467px;*/
+/*    height: 38px;*/
+/*    border-radius: 5px;*/
+
+/*    !*margin-left: 20px;*!*/
+/*}*/
+.select-5 {
+    padding-left: 2%;
+    /*padding-left: 1%;*/
+    margin-top: 1%;
+    /*width: 477px;*/
+    /*background-color: ye;*/
+    width: 99%;
+    height: 36px;
+    border: 1px solid #e2e3e6;
+    border-radius: 4px;
+    outline: none;
+    /*padding: 5px;*/
+    transition: border-color 0.3s;
+}
+
+.input-5-noBack:hover,
+.select-5:hover {
+    border: 1.4px solid #155ede;
+}
+.input-5-noBack:focus,
+.select-5:focus{
+    outline: none;
+    border: 1px solid #155ede;
+    /*box-shadow: 0 0 5px #155ede;*/
+}
+.select-5 option {
+    color: black;font-size: 16px
+    /*;margin-left: 1%;*/
+    /*line-height: 100%;*/
+    /*padding: 140px 110px;*/
+}
+
+
+/*.select-5:required:invalid {*/
+/*    border-color: red;*/
+/*}*/
+
+/*.select-5:required:invalid + .error-message {*/
+/*    display: block;*/
+/*    color: red;*/
+/*    margin-top: 5px;*/
+/*}*/
+
+/*.select-5.validated {*/
+/*    border-color: #155ede;*/
+/*}*/
+
+/*.error-message {*/
+/*    display: none;*/
+/*}*/
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.layui-input-block {
+    margin-bottom: 40px;
+}
+
+.rotate-up-left .layui-carousel-ind ul li i {
+    transform: rotate(-135deg) scale(0.7) translate3d(0, -10px, 0);
+}
+
+
+
+
+
+/*html,*/
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+/*body {*/
+/*    margin: 0; !* Remove default body margin *!*/
+/*}*/
+html, body {
+    height: 100%;
+    /*zoom:1;overflow:hidden;*/
+}
+
+.layui-fluid {
+    padding: 0; /* Remove padding from the container *//*    固定*/ /*position: fixed;*/
+    top: 0;
+    left: 0;
+
+    /*width:1260px;*/
+    /*background-color: red;*/
+    /*background-color: yellow;*/
+    /*height: 800px;*/
+    /*margin:0 auto; !*    版心布局*!*/
+}
+
+html {
+    zoom: 100%;
+}
+
+
+
+
+.content {
+    flex: 1;
+}
+
+
+
+
+.userinfo {
+    display: inline-block;
+    /*height: 100%;*/
+    position: relative;
+    padding: 4px 18px;
+    /* width: 156px; */
+    height: 30px;
+    border-radius: 26px;
+    line-height: 34px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.userinfo a {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.tiao {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    height: 14px;
+    padding-right: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+
+.font14 color {
+    /*float: left;*/
+    font-size: 14px;
+}
+
+
+
+
+.custom-layer .header {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: flex-start;*/
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.custom-layer .alert-icon {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.custom-layer .alert-title {
+
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.custom-layer .custom-alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7px 0; /* 调整上下内边距 */
+    max-height: 40vh; /* 设置容器的最大高度为40%视口高度 */
+    overflow: hidden; /* 隐藏超出容器高度的部分 */
+    margin: 0 auto; /* 水平居中 */
+}
+/*修改登录方法里面的字体文本*/
+.custom-layer .custom-content {
+    font-size: 15px;
+    max-width: 100%; /* 设置内容的最大宽度为100% */
+    overflow: hidden; /* 隐藏内容超出容器的部分 */
+    margin-top: 13%;
+}
+
+.custom-layer .layui-layer-btn {
+    border-width: 7px;
+}
+
+.custom-layer .layui-layer-input {
+    border-width: 7px;
+}
+/*设置登录方法的登录和取消的按钮颜色*/
+.custom-layer .layui-layer-btn .layui-layer-btn0 {
+    background-color: #ffffff; /* 取消按钮的背景色 */
+    color: #333333; /* 取消按钮的文本颜色 */
+}
+.custom-layer .layui-layer-btn .layui-layer-btn1 {
+    background-color: #155ede; /* 登录按钮的背景色 */
+    color: #ffffff; /* 登录按钮的文本颜色 */
+}
+.custom-layer .layui-layer-btn .layui-layer-btn0:hover {
+    color: #155ede; /* 取消按钮在悬停时的文本颜色 */
+}
+
+/*#step1-content{*/
+/*    height: 60%;*/
+/*}*/
+/*#step2-content{*/
+/*    height: 1500px;*/
+/*}*/
+.custom-step .layui-step-content {
+    display: flex;
+    flex-direction: column;
+}
+.layui-step-box {
+    height: auto !important;
+}
+
+
+select.custom-select:invalid {
+    /*border-color: red;*/
+}
+
+.error-message{
+    display: none; color: red; margin-top: 5px;font-size: 13px;margin-left: 1%;
+}
+
+
+/*.placeholder-option {*/
+/*    color: #d6d9df !important;*/
+/*    font-size: 16px !important;*/
+/*}*/
+
+
+.select-5 option[value=""][disabled]:first-child::placeholder {
+    color: #d6d9df;
+    font-size: 16px;
+}
+#dateInput{
+    border: 1px solid transparent;
+}
+
+
+
+
+.content {
+    text-align: center;
+}
+/*注册*/
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.register-dropdown:hover + .dropdown-menu {
+    display: block;
+}
+
+/*步骤条*/
+
+
+
+.custom-dialog {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.dialog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dialog-content {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-confirm {
+    background-color: #155ede;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-cancel {
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#cancelBtn:hover {
+    color: #155ede !important;
+    border: 1px solid #155ede !important;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    align-items: stretch; /* 垂直方向上填充整个容器 */
+}
+
+
+.applicant-info {
+    margin-top: 2%;
+    /* 添加其他样式属性 */
+}
+
+.applicant-info-heading {
+    font-size: 18px;
+    font-weight: bold;
+    /* 添加其他样式属性 */
+}
+/*表格*/
+.layui-table-box .layui-table-header thead tr {
+    background-color: rgb(230, 239, 249);
+    font-weight: bolder;
+    font-size: 16px;
+
+}
+.layui-table-box .layui-table-header th {
+    text-align: center;
+}
+.layui-table-box {
+    text-align: center;
+    border: 1px solid  rgb(189, 213, 239);
+    align-content: center;
+    /*overflow: auto;*/
+    /*max-height: 80%;*/
+}
+.layui-table-box .layui-table-view .layui-table-body {
+    background-color: white;
+}
+/*.layui-table-box .layui-table-header thead th {*/
+/*    border: 1px solid rgb(195, 216, 240);*/
+/*}*/
+
+
+ /*.layui-table-patch {*/
+ /*    !*background-color: #155ede !important; !* 设置为您期望的颜色 *!*!*/
+ /*    ;*/
+ /*}*/
+
+
+/*#step3-content table {*/
+/*    width: auto;*/
+/*    border-collapse: collapse;*/
+/*}*/
+
+/*#step3-content th,*/
+/*#step3-content td {*/
+/*    padding: 8px;*/
+/*    text-align: center;*/
+/*    border: 1px solid rgb(195, 216, 240);*/
+/*}*/
+
+/*#step3-content th {*/
+/*    background-color: rgb(230, 239, 249);*/
+/*}*/
+/*#step3-content td {*/
+/*    background-color: white;*/
+/*}*/
+
+/*快递领取*/
+#receiveForm label{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+/* *号*/
+.star-20{
+    color: red; font-size: 20px; display: inline-block; vertical-align: middle;
+}
+
+/*步骤条更新版*/
+
+
+
+.layui-btn-m2{
+    margin-left: 3%;
+}
